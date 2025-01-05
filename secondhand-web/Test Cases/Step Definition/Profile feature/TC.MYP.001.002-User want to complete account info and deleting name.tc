@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MYP.001.002-User want to complete account info and deleting name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31017436-441e-44fe-ab0f-579c803b7c1b</testCaseGuid>
+</TestCaseEntity>

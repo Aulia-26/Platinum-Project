@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Cat.001.002 - FIlter Kategori Kendaraan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6c111a1-4579-4ada-845f-555dca28dd72</testCaseGuid>
+</TestCaseEntity>

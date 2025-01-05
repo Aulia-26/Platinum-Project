@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid Offer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c85e711e-275f-4d23-aac6-fa8fdd5acdfd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f67d4616-d131-42b7-a8b9-09ae446f0b6e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f67d4616-d131-42b7-a8b9-09ae446f0b6e</id>
+      <masked>false</masked>
+      <name>inpPrice</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input profile address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95997869-ec5a-4294-b1ff-303c1ec0b617</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a7c8d4d-a278-4a7e-b04d-1d966975dafc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a7c8d4d-a278-4a7e-b04d-1d966975dafc</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac3c2d33-1b5a-41aa-a75c-5b3baf42ced1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6317111-baec-4db9-8561-a85e3d2b5a04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6317111-baec-4db9-8561-a85e3d2b5a04</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+</TestCaseEntity>

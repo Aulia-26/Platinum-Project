@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change profile kota</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d2bed7d-1a66-49f1-965d-bb32e0a51b31</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb6e9ba7-e99f-481b-98a1-32f52ce3c1a5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nama kota'</defaultValue>
+      <description></description>
+      <id>eb6e9ba7-e99f-481b-98a1-32f52ce3c1a5</id>
+      <masked>false</masked>
+      <name>updKota</name>
+   </variable>
+</TestCaseEntity>

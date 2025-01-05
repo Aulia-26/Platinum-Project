@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploud_profile_photo</name>
+   <tag></tag>
+   <elementGuidId>f69e470e-7656-425b-be76-26235f0d4940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'form-avatar-view']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/section/section/section/div/form/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#form-avatar-view</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a8395d8d-6c2b-4072-b479-ba1ad1944c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex justify-content-center</value>
+      <webElementGuid>42b614d1-d8e5-4d23-9470-b795050f2a5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form-avatar-view</value>
+      <webElementGuid>c5ce671a-b1c8-4da6-9006-ab01c77c64c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-avatar-view&quot;)</value>
+      <webElementGuid>a94bb12f-5335-4f9a-8bd5-b09de1796fd0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='form-avatar-view']</value>
+      <webElementGuid>945761e7-0b4e-4e8a-8615-1c49f11d35f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Info Akun'])[1]/following::div[4]</value>
+      <webElementGuid>43e83ebf-5e6f-4578-b1b2-9dc9ccec50c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::div[2]</value>
+      <webElementGuid>fedaa847-85d4-4e06-bede-26c3d7d5b524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/preceding::div[3]</value>
+      <webElementGuid>e62e7b72-8667-4f99-bbce-98d5d8c46d06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div</value>
+      <webElementGuid>7520a162-7530-4927-b07d-a0eccf57842c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'form-avatar-view']</value>
+      <webElementGuid>92fe66ec-7a35-4ba0-b526-8aab5e727298</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

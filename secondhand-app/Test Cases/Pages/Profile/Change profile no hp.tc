@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change profile no hp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a044643f-00cc-4e86-8729-be2d5ab3068c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3961ab7c-e8a4-4557-989b-10c6da3d819c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'081234567890'</defaultValue>
+      <description></description>
+      <id>3961ab7c-e8a4-4557-989b-10c6da3d819c</id>
+      <masked>false</masked>
+      <name>updNoHp</name>
+   </variable>
+</TestCaseEntity>

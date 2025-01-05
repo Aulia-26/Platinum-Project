@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Profile Email only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79269064-7153-44f4-b54e-01a081785db9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ae15477-89bb-41da-aa79-055ca9bd1fd1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ae15477-89bb-41da-aa79-055ca9bd1fd1</id>
+      <masked>false</masked>
+      <name>updProfileEmail</name>
+   </variable>
+</TestCaseEntity>

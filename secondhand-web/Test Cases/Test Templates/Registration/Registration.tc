@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e303ba3-f5d9-40f3-9176-69c826f8cf02</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a3722c5-8e35-40c7-9979-d4377e0b387b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f77c82c-09b9-405d-9882-129539dfd88f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62a68087-2d60-4082-accc-20aa6f25088d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a3722c5-8e35-40c7-9979-d4377e0b387b</id>
+      <masked>false</masked>
+      <name>uname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f77c82c-09b9-405d-9882-129539dfd88f</id>
+      <masked>false</masked>
+      <name>uemail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62a68087-2d60-4082-accc-20aa6f25088d</id>
+      <masked>false</masked>
+      <name>upassword</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,826 @@
+{
+	"info": {
+		"_postman_id": "a3c7e87c-4e74-4458-86c8-25455955dd07",
+		"name": "Secondhand",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29671527",
+		"_collection_link": "https://www.postman.com/qaebinaracademy/workspace/binar-qae15-luthfi-aulia/collection/29671527-a3c7e87c-4e74-4458-86c8-25455955dd07?action=share&source=collection_link&creator=29671527"
+	},
+	"item": [
+		{
+			"name": "Autentication",
+			"item": [
+				{
+					"name": "Registration",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"// Generate a random name\r",
+									"function generateRandomName() {\r",
+									"    const firstNames = [\"Anne\", \"Taylor\", \"Mark\", \"Jay\", \"Erick\",\"Jake\"]; // Add more first names as needed\r",
+									"    const lastNames = [\"Swift\", \"Jenner\", \"Zoe\", \"Peter\", \"Shan\"]; // Add more last names as needed\r",
+									"    const randomFirstName = firstNames[Math.floor(Math.random() * firstNames.length)];\r",
+									"    const randomLastName = lastNames[Math.floor(Math.random() * lastNames.length)];\r",
+									"    return `${randomFirstName} ${randomLastName}`;\r",
+									"}\r",
+									"const randomName = generateRandomName();\r",
+									"// Store the random name in an environment variable\r",
+									"pm.environment.set('random_name', randomName);\r",
+									"\r",
+									"\r",
+									"// Generate a random email address\r",
+									"function generateRandomEmail() {\r",
+									"    const username = Math.random().toString(36).substring(2, 12); // Generate a random username\r",
+									"    const domain = 'gmail.com'; // Replace 'example.com' with your desired domain\r",
+									"    return `${username}@${domain}`;\r",
+									"}\r",
+									"const randomEmail = generateRandomEmail();\r",
+									"// Store the random email in an environment variable\r",
+									"pm.environment.set('random_email', randomEmail);\r",
+									"\r",
+									"// Generate a random-looking Indonesian phone number\r",
+									"function generateRandomIndonesianPhoneNumber() {\r",
+									"    const prefixOptions = [\"0811\", \"0812\", \"0813\", \"0821\", \"0822\", \"0823\", \"0851\", \"0852\", \"0853\", \"0814\", \"0815\", \"0816\", \"0855\"];\r",
+									"    const selectedPrefix = prefixOptions[Math.floor(Math.random() * prefixOptions.length)];\r",
+									"    const remainingDigits = Math.floor(Math.random() * 1000000000).toString().padStart(9, '0');\r",
+									"    return selectedPrefix + remainingDigits;\r",
+									"}\r",
+									"const randomIndonesianPhoneNumber = generateRandomIndonesianPhoneNumber();\r",
+									"// Store the random Indonesian phone number in an environment variable\r",
+									"pm.environment.set('random_indonesian_phone_number', randomIndonesianPhoneNumber);\r",
+									"\r",
+									"// Generate a random-looking Indonesian address\r",
+									"function generateRandomIndonesianAddress() {\r",
+									"    const streets = [\"Jalan Merdeka\", \"Jalan Pahlawan\", \"Jalan Raya\", \"Jalan Cendrawasih\", \"Jalan Budi Utomo\", \"Jalan Diponegoro\"];\r",
+									"    const cities = [\"Jakarta\", \"Surabaya\", \"Bandung\", \"Yogyakarta\", \"Medan\", \"Semarang\"];\r",
+									"    const provinces = [\"Jakarta\", \"East Java\", \"West Java\", \"Yogyakarta\", \"North Sumatra\", \"Central Java\"];\r",
+									"    \r",
+									"    const randomStreet = streets[Math.floor(Math.random() * streets.length)];\r",
+									"    const randomCity = cities[Math.floor(Math.random() * cities.length)];\r",
+									"    const randomProvince = provinces[Math.floor(Math.random() * provinces.length)];\r",
+									"    \r",
+									"    return `${randomStreet}, ${randomCity}, ${randomProvince}`;\r",
+									"}\r",
+									"const randomIndonesianAddress = generateRandomIndonesianAddress();\r",
+									"// Store the random Indonesian address in an environment variable\r",
+									"pm.environment.set('random_indonesian_address', randomIndonesianAddress);\r",
+									"// Extract the city from the generated address\r",
+									"const city = randomIndonesianAddress.split(', ')[1];\r",
+									"// Store the extracted city in an environment variable\r",
+									"pm.environment.set('random_indonesian_city', city);\r",
+									"\r",
+									"// Define an array of random IT computer product names\r",
+									"const computerProductNames = [\r",
+									"    \"Laptop\", \"Desktop Computer\", \"Monitor\", \"Keyboard\", \"Mouse\", \"Router\", \"External Hard Drive\",\r",
+									"    \"Webcam\", \"Printer\", \"Scanner\", \"Graphics Card\", \"Motherboard\", \"CPU\", \"RAM\", \"SSD\",\r",
+									"    \"Software License\", \"Tablet\", \"Server\", \"UPS\", \"Network Switch\"\r",
+									"];\r",
+									"// Generate a random IT computer product name\r",
+									"function generateRandomComputerProductName() {\r",
+									"    const randomIndex = Math.floor(Math.random() * computerProductNames.length);\r",
+									"    return computerProductNames[randomIndex];\r",
+									"}\r",
+									"const randomComputerProductName = generateRandomComputerProductName();\r",
+									"// Store the random computer product name in an environment variable\r",
+									"pm.environment.set('random_computer_product_name', randomComputerProductName);\r",
+									"\r",
+									"// Define an array of random product descriptions\r",
+									"const productDescriptions = [\r",
+									"    \"High-performance and reliable\",\r",
+									"    \"Sleek and modern design\",\r",
+									"    \"Built to last with top-quality materials\",\r",
+									"    \"Versatile and easy to use\",\r",
+									"    \"Cutting-edge technology for superior performance\",\r",
+									"    \"Ergonomically designed for comfort\",\r",
+									"    \"Enhance your productivity with this product\",\r",
+									"    \"Experience the future of technology\",\r",
+									"    \"Affordable and feature-packed\",\r",
+									"    \"Innovative and stylish\",\r",
+									"    \"Ideal for both personal and professional use\",\r",
+									"    \"Eco-friendly and energy-efficient\",\r",
+									"    \"Seamless connectivity and compatibility\",\r",
+									"    \"Get the job done with ease\",\r",
+									"    \"Upgrade your setup with this exceptional product\",\r",
+									"    \"Stay ahead with the latest in tech\",\r",
+									"];\r",
+									"\r",
+									"// Generate a random product description\r",
+									"function generateRandomProductDescription() {\r",
+									"    const randomIndex = Math.floor(Math.random() * productDescriptions.length);\r",
+									"    return productDescriptions[randomIndex];\r",
+									"}\r",
+									"const randomProductDescription = generateRandomProductDescription();\r",
+									"// Store the random product description in an environment variable\r",
+									"pm.environment.set('random_product_description', randomProductDescription);\r",
+									"\r",
+									"// Generate a random product price\r",
+									"function generateRandomProductPrice(min, max, decimalPlaces) {\r",
+									"    const price = (Math.random() * (max - min) + min).toFixed(decimalPlaces);\r",
+									"    return parseFloat(price).toFixed(decimalPlaces);\r",
+									"}\r",
+									"const minPrice = 100000.00; // Define the minimum price\r",
+									"const maxPrice = 5000000.00; // Define the maximum price\r",
+									"const decimalPlaces = 0; // Define the number of decimal places\r",
+									"const randomProductPrice = generateRandomProductPrice(minPrice, maxPrice, decimalPlaces);\r",
+									"// Store the random product price in an environment variable\r",
+									"pm.environment.set('random_product_price', randomProductPrice);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});\r",
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"user\": {\r\n    \"name\": \"{{random_name}}\",\r\n    \"email\": \"{{random_email}}\",\r\n    \"password\": \"{{password}}\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/users.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});\r",
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"user\": {\r\n    \"email\": \"{{random_email}}\",\r\n    \"password\": \"{{password}}\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/users/sign_in.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"sign_in.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profiles",
+			"item": [
+				{
+					"name": "Update Profile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 1000ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user[name]",
+									"value": "{{random_name}}",
+									"type": "text"
+								},
+								{
+									"key": "user[phone_number]",
+									"value": "{{random_indonesian_phone_number}}",
+									"type": "text"
+								},
+								{
+									"key": "user[address]",
+									"value": "{{random_indonesian_address}}",
+									"type": "text"
+								},
+								{
+									"key": "user[city_id]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user[avatar]",
+									"type": "file",
+									"src": "/C:/Users/ASUS/Pictures/anggur1.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/profiles.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"profiles.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Profile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/profiles.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"profiles.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "List Categories",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/categories.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Category",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/categories/:id.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories",
+								":id.json"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Create Product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "product[name]",
+									"value": "Anggur Segar",
+									"type": "text"
+								},
+								{
+									"key": "product[price]",
+									"value": "25000",
+									"type": "text"
+								},
+								{
+									"key": "product[description]",
+									"value": "fresh",
+									"type": "text"
+								},
+								{
+									"key": "product[status]",
+									"value": "published",
+									"type": "text"
+								},
+								{
+									"key": "product[category_id]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "product[images]",
+									"type": "file",
+									"src": "/C:/Users/ASUS/Pictures/anggur1.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/products.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Products",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/products.json?page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products.json"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/products/:id.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								":id.json"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "51016"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "product[name]",
+									"value": "Anggur hijau",
+									"type": "text"
+								},
+								{
+									"key": "product[price]",
+									"value": "35000",
+									"type": "text"
+								},
+								{
+									"key": "product[decription]",
+									"value": "Buah",
+									"type": "text"
+								},
+								{
+									"key": "product[status]",
+									"value": "published",
+									"type": "text"
+								},
+								{
+									"key": "product[category_id]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "product[images][]",
+									"type": "file",
+									"src": "/C:/Users/ASUS/Pictures/anngur.png"
+								},
+								{
+									"key": "product[persisted_images][]",
+									"type": "file",
+									"src": "/C:/Users/ASUS/Pictures/na.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/products/:id.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								":id.json"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "58840"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}products/:id.json",
+							"host": [
+								"{{base_url}}products"
+							],
+							"path": [
+								":id.json"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "58843"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Offers",
+			"item": [
+				{
+					"name": "Create Offer",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"offer\": {\r\n    \"price\": 30000,\r\n    \"to_id\": 87841,\r\n    \"product_id\": 57941\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}offers.json",
+							"host": [
+								"{{base_url}}offers",
+								"json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Offers",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}users/:user_id/offers.json",
+							"host": [
+								"{{base_url}}users"
+							],
+							"path": [
+								":user_id",
+								"offers.json"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "85131"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Offer",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 500ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"offer\": {\r\n    \"status\": \"accepted\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}offers/:id.json",
+							"host": [
+								"{{base_url}}offers"
+							],
+							"path": [
+								":id.json"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "45919"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

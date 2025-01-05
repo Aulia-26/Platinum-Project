@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MYP.001.001- Mod User want to complete account info without input or change profile picture</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac6ef0b1-0786-47ed-be16-6d3b74984574</testCaseGuid>
+</TestCaseEntity>

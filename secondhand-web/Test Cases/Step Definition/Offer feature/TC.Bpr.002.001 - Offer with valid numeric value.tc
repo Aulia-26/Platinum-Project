@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Bpr.002.001 - Offer with valid numeric value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e6fe952-0f6a-4f59-a23a-5f303e6ac1b5</testCaseGuid>
+</TestCaseEntity>

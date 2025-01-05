@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Profile Name only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f122b4b-849d-46cc-8562-8d2370dfb459</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e133365b-8aff-433b-a3e6-f65adc77042f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e133365b-8aff-433b-a3e6-f65adc77042f</id>
+      <masked>false</masked>
+      <name>updProfileName</name>
+   </variable>
+</TestCaseEntity>

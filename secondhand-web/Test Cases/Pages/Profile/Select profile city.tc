@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select profile city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9e55929-5a77-4751-9bb1-ab3c46a4564b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>759b7f82-3004-442f-a22b-4ad39580f74b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>759b7f82-3004-442f-a22b-4ad39580f74b</id>
+      <masked>false</masked>
+      <name>select_city</name>
+   </variable>
+</TestCaseEntity>

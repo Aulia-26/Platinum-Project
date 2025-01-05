@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Auth.002.002 - User login with empty data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f2cd3af-3c7b-45f1-a676-3b3e209bb017</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46bd9206-0c55-4c7f-a6f5-0e016cb79e9f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83623262-0c1d-4a52-adc1-1c94d93aeced</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46bd9206-0c55-4c7f-a6f5-0e016cb79e9f</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83623262-0c1d-4a52-adc1-1c94d93aeced</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

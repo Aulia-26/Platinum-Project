@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Profile No HP only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e081821d-3f89-40b1-925a-93a13aa7fc25</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e30d7744-5659-4ce1-897f-b4050e16c6d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e30d7744-5659-4ce1-897f-b4050e16c6d1</id>
+      <masked>false</masked>
+      <name>updProfileNoHp</name>
+   </variable>
+</TestCaseEntity>

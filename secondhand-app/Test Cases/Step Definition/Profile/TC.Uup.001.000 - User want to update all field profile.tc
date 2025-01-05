@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Uup.001.000 - User want to update all field profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb77bcf0-22dc-48a7-b92a-a4c686e97ed3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Offer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e186ae5b-977b-4a76-918a-cd65c9de6da0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9cd5dcbc-5a25-466a-aa1f-6f6a50bdaa64</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9cd5dcbc-5a25-466a-aa1f-6f6a50bdaa64</id>
+      <masked>false</masked>
+      <name>inpPrice</name>
+   </variable>
+</TestCaseEntity>

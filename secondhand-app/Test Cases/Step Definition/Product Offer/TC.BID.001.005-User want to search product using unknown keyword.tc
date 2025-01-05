@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BID.001.005-User want to search product using unknown keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ff18dde-b994-4b97-8524-b86ce794551a</testCaseGuid>
+</TestCaseEntity>

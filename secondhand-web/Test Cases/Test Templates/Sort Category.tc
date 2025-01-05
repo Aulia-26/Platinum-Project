@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sort Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a7b47e8-5365-4516-aeaf-03e740db4409</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fb8d3af-4e40-457b-85dc-98fe16743672</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fb8d3af-4e40-457b-85dc-98fe16743672</id>
+      <masked>false</masked>
+      <name>cName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Uup.001.012 - User want to edit profile address information by left the field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbfdce6f-eb2e-4762-9ddb-f3595a146c64</testCaseGuid>
+</TestCaseEntity>

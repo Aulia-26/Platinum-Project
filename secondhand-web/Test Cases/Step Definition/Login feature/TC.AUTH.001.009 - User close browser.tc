@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.AUTH.001.009 - User close browser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df72480e-9334-4223-82a5-e4b4f1a67389</testCaseGuid>
+</TestCaseEntity>

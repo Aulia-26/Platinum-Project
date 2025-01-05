@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change profile email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7e52956-c113-4f6a-bbaf-d4170a21c27d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5304a850-8ab2-49a4-a254-0450c0e94050</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'budy@gmail.com'</defaultValue>
+      <description></description>
+      <id>5304a850-8ab2-49a4-a254-0450c0e94050</id>
+      <masked>false</masked>
+      <name>updEmail</name>
+   </variable>
+</TestCaseEntity>

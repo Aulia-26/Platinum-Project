@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Uup.001.004 - User want to edit profile phone number information using valid input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>498aa7c7-7979-49d9-850d-3c4cb35744d1</testCaseGuid>
+</TestCaseEntity>

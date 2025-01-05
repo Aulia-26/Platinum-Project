@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Uup.001.003 - User want to edit profile name information using valid input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdda07a5-d993-445f-ad0e-2bcf53e94952</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ceee4689-5467-4a39-a919-6711463ba492</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f09254e-a213-47c8-85ce-778efbfbcac5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62bb8ab7-370e-4ea1-a008-4b44d4e7b2f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80c88522-d0cd-49f5-a428-f59377a73769</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f09254e-a213-47c8-85ce-778efbfbcac5</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62bb8ab7-370e-4ea1-a008-4b44d4e7b2f6</id>
+      <masked>false</masked>
+      <name>price_product</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80c88522-d0cd-49f5-a428-f59377a73769</id>
+      <masked>false</masked>
+      <name>product_desc</name>
+   </variable>
+</TestCaseEntity>

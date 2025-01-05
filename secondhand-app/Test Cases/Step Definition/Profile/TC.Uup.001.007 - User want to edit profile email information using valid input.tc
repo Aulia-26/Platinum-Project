@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Uup.001.007 - User want to edit profile email information using valid input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>862d7bac-4bfa-41c5-b1e7-b38c53c8b986</testCaseGuid>
+</TestCaseEntity>

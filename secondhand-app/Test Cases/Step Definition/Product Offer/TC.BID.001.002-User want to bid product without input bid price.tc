@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BID.001.002-User want to bid product without input bid price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccd8e3ad-a982-4b7f-816b-1ba8a11b341b</testCaseGuid>
+</TestCaseEntity>

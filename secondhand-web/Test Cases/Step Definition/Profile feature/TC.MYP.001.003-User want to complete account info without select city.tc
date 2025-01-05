@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MYP.001.003-User want to complete account info without select city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f412a95-1e69-424e-b443-665e6fae8936</testCaseGuid>
+</TestCaseEntity>

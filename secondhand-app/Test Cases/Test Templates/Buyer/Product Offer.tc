@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Product Offer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4db9993-0678-4614-a0a6-1a631343b7f2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33cf4fd2-592c-4ce6-b822-2578c396b758</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33cf4fd2-592c-4ce6-b822-2578c396b758</id>
+      <masked>false</masked>
+      <name>bidprice</name>
+   </variable>
+</TestCaseEntity>

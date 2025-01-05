@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change profile alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3db3d20-f494-4dcf-88c5-015c6a4af44c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adaa18d5-0025-4949-99e6-c38e8ad9b1f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nama alamat'</defaultValue>
+      <description></description>
+      <id>adaa18d5-0025-4949-99e6-c38e8ad9b1f4</id>
+      <masked>false</masked>
+      <name>updAlamat</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input deskripsi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d60a985-6c90-4a28-89c6-0f6689aa8e08</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7ed6ce4-2504-48a5-b833-e6757f09fbb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7ed6ce4-2504-48a5-b833-e6757f09fbb4</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
+</TestCaseEntity>

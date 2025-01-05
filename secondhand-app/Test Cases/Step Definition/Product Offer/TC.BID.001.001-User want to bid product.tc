@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BID.001.001-User want to bid product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e3215be-2aa3-4142-b610-e1098c59e031</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7838e0f7-7aa8-447d-8155-f63fc0c67488</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>7838e0f7-7aa8-447d-8155-f63fc0c67488</id>
+      <masked>false</masked>
+      <name>bidprice</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Auth.002.005 - User login with invalid data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a5eb045-bace-408e-9572-aa27f29f7dba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47daac50-17f6-4e03-a200-f1e6b3d09ffe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>943de3df-8cb5-45f0-8692-d6d89b57db05</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>47daac50-17f6-4e03-a200-f1e6b3d09ffe</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>943de3df-8cb5-45f0-8692-d6d89b57db05</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

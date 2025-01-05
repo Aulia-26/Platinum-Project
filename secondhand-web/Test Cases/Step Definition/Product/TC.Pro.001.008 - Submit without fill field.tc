@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Pro.001.008 - Submit without fill field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>804b7ed4-8952-4a85-8ef2-16fe8b8e8f5e</testCaseGuid>
+</TestCaseEntity>

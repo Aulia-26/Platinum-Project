@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Product Offer Using search typo or unknown keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bceb3606-5b83-4152-a347-90c0271c0624</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74d74d55-2b1a-4d60-ab50-b10c09150bb9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74d74d55-2b1a-4d60-ab50-b10c09150bb9</id>
+      <masked>false</masked>
+      <name>search_product</name>
+   </variable>
+</TestCaseEntity>

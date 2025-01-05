@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change profile name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8af9eb1c-a189-4e68-adb7-4977cf16ac10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7d0a403-cb10-4dc1-8746-e39f49fd8259</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nama profile'</defaultValue>
+      <description></description>
+      <id>e7d0a403-cb10-4dc1-8746-e39f49fd8259</id>
+      <masked>false</masked>
+      <name>updName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BID.001.004-User want to search product using typo keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6fcef4f-cc57-42c0-9c11-8653e6566f8a</testCaseGuid>
+</TestCaseEntity>
